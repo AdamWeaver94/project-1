@@ -10,6 +10,7 @@ body {
     font-family: Cinzel, sans-serif;
     font-weight: 300;
     background-color: rgb(0, 0, 0);
+    color: azure;
 }
 
 /* heading and logo */
@@ -24,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 40px;
 }
 
 /* navigation links */
@@ -32,6 +34,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 5px;
     color: #f0ffff;
+    margin-right: 20px;
 }
 
 #menu, #logo {
@@ -84,4 +87,31 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+
+/* viking infomation */
+
+#viking-info {
+    height: 600px;
+}
+
+#sub-viking {
+    text-align: center;
+}
+
+#left-info {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-info {
+    padding-top: 30;
+    width: 33%;
+    float: right;
+}
+
+#center-info {
+    width: 33%;
+    margin: 0 auto;
 }
