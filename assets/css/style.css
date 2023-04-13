@@ -9,7 +9,7 @@
 body {
     font-family: Cinzel, sans-serif;
     font-weight: 300;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 /* heading and logo */
@@ -55,4 +55,33 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #f0ffff;
+}
+
+/* homepage image */
+
+#homepage-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#homepage-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/michele-nucera-vikings-village.jpg) no-repeat center center;
+
+    /* zoom animation when loading page */
+    animation-name: homepage-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom for homepage image */
+@keyframes homepage-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
