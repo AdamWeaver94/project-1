@@ -102,7 +102,7 @@ h1, h2 {
 }
 
 #left-info-image {
-    background: url(../images/519.346_600x.jpg) no-repeat center center; /* used multiple images until one i was happy with */
+    background: url(../images/519.346_600x.jpg) no-repeat center center; /* used multiple images until happy */
     background-position: center;
     background-size: 350px;
     height: 300px;
@@ -143,6 +143,7 @@ h1, h2 {
     text-align: center;
 }
 
+/* How to make all images equal to eachother?*/
 #center-info-image {
     background: url(../images/750px.png) no-repeat center center;
     background-position: center;
@@ -158,6 +159,8 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
 }
+
+/* Ask how to centerlise this text? */
 
 #center-info p {
     padding-top: 30px;
