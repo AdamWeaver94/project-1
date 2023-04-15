@@ -95,14 +95,22 @@ h1, h2 {
     height: 600px;
 }
 
-#sub-viking {
+#viking-info-heading {
     text-align: center;
+    margin: 30px 0;
+    font-size: 300%;
 }
 
 #left-info {
     padding-top: 30px;
     width: 33%;
     float: left;
+}
+
+#left-info-image {
+    background-image: url(../images/519.346_600x.jpg);
+    height: 300px;
+    width: 100%;
 }
 
 #right-info {
