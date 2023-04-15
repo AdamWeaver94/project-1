@@ -103,6 +103,8 @@ h1, h2 {
 
 #left-info-image {
     background: url(../images/519.346_600x.jpg) no-repeat center center; /* used multiple images until one i was happy with */
+    background-position: center;
+    background-size: 350px;
     height: 300px;
     width: 100%;
 }
@@ -110,22 +112,55 @@ h1, h2 {
 #left-info {
     padding-top: 30px;
     padding-left: 30px;
+    padding-right: 30px;
     width: 33%;
     float: left;
 }
 
 #left-info p {
     padding-top: 30px;
-    margin: 0 auto;
+    text-align: center;
+}
+
+#right-info-image {
+    background: url(../images/desktop-wallpaper-vikings-viking-norse-vikings-dark-viking.jpg) no-repeat center center;
+    background-position: center;
+    background-size: 350px;
+    height: 300px;
+    width: 100%;
 }
 
 #right-info {
-    padding-top: 30;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 33%;
     float: right;
 }
 
+#right-info p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#center-info-image {
+    background: url(../images/750px.png) no-repeat center center;
+    background-position: center;
+    background-size: 350px;
+    height: 300px;
+    width: 100%;
+}
+
 #center-info {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 33%;
+    margin: 0 auto;
+}
+
+#center-info p {
+    padding-top: 30px;
+    text-align: center;
     margin: 0 auto;
 }
