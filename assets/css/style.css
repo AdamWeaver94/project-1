@@ -92,7 +92,7 @@ h1, h2 {
 /* viking infomation */
 
 #viking-info {
-    height: 800pxpx;
+    height: 800px;
 }
 
 #viking-info-heading {
@@ -168,10 +168,11 @@ h1, h2 {
     margin: 0 auto;
 }
 
-/* mini god images */
+/* mini god images, ask why images are not loading */
 
 .container {
     display: flex;
+    text-align: center;
 }
 
 .card {
@@ -190,4 +191,27 @@ h1, h2 {
 
 .card:hover img {
     filter: none;
+}
+
+/* footer */
+
+/* footer not loading icons */
+
+footer {
+    height: 200px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(246, 176, 0);
 }
