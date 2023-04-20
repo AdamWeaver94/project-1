@@ -267,3 +267,43 @@ footer {
     font-size: 50px;
     padding: 16px 32px;
 }
+
+/* contact */
+
+legend {
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.form-container {
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    background-color: #01a5a5;
+    }
+
+input [type=submit] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: rgb(246, 176, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+input [tye=text] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: rgb(246, 176, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.block-label {
+    display: block;
+}
