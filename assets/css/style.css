@@ -346,4 +346,20 @@ input[type=reset] {
         line-height: 25px;
     }
     
+    #viking-info {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-info h3, #right-info h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #left-info h3, #right-info h3 {
+        width: 100%;
+        text-align: center;
+    }
 }
