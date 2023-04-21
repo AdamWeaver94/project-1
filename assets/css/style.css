@@ -170,29 +170,42 @@ div h3 {
     margin: 0 auto;
 }
 
-/* mini god images, ask why images are not loading */
+/* mini god images */
 
 .container {
     display: flex;
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 .card {
     flex: 1;
     overflow: hidden;
+    width: 250px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
 }
 
 .card img {
     object-fit: cover;
     filter: grayscale(1);
+    width: 250px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .card:hover {
     flex: 3;
+    width: 250px;
+    height: 500px
 }
 
 .card:hover img {
     filter: none;
+    width: 250px;
+    height: 500px;
 }
 
 /* footer */
@@ -319,15 +332,23 @@ input[type=reset] {
 
     #left-info, #right-info {
         width: 100%;
-        float: inline-start;
         padding: 0;
+        clear: both;
     }
 
     #center-info {
         clear: both;
         width: 100%;
-        float: inline-start;
         padding: 0;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        clear: both;
+        padding-top: 500px;
+        margin: 0 auto;
     }
 
     hr {
@@ -358,8 +379,19 @@ input[type=reset] {
     }
 
 
-    #left-info h3, #right-info h3 {
+    #left-info p, #right-info p {
         width: 100%;
         text-align: center;
+    }
+
+    #gods {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    #gods {
+        column-count: 2;
     }
 }
