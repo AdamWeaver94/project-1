@@ -354,6 +354,13 @@ input[type=reset] {
     hr {
         display: none;
     }
+
+    .form-container {
+        width: 50%;
+        height: auto;
+        clear: both;
+        margin: 0 auto;
+    }
 }
 
 /* medium screen sizes 950px wide and down */
