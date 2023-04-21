@@ -302,3 +302,35 @@ input[type=reset] {
     border: none;
     border-radius: 5px;
 }
+
+/* Media queires*/
+
+@media screen and (max-width: 1200px) {
+    #viking-info {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #logo {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-info, #right-info {
+        width: 100%;
+        float: inline-start;
+        padding: 0;
+    }
+
+    #center-info {
+        clear: both;
+        width: 100%;
+        float: inline-start;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
