@@ -281,10 +281,9 @@ legend {
     font-size: 20px;
     text-align: center;
     padding: 25px;
-    background-color: #01a5a5;
     }
 
-input [type=submit] {
+input[type=submit] {
     margin-top: 20px;
     margin-left: 0.75rem;
     padding: 0.75rem;
@@ -294,7 +293,7 @@ input [type=submit] {
     border-radius: 5px;
 }
 
-input [tye=text] {
+input[type=reset] {
     margin-top: 20px;
     margin-left: 0.75rem;
     padding: 0.75rem;
@@ -302,8 +301,4 @@ input [tye=text] {
     color: black;
     border: none;
     border-radius: 5px;
-}
-
-.block-label {
-    display: block;
 }
