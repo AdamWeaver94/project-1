@@ -403,7 +403,16 @@ input[type=reset] {
     }
 
     #menu {
-        width: 100%;
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
         font-size: medium;
+        width: 100%;
+    }
+
+    #god-cards {
+        padding-top: 667px;
     }
 }
