@@ -71,7 +71,7 @@ h1, h2, h3 {
 #homepage-image {
     height: 600px;
     width: 100%;
-    background: url(../images/michele-nucera-vikings-village.jpg) no-repeat center center;
+    background: url(../images/homepage-image.jpg) no-repeat center center;
 
     /* zoom animation when loading page */
     animation-name: homepage-zoom;
@@ -106,7 +106,7 @@ div h3 {
 }
 
 #left-info-image {
-    background: url(../images/519.346_600x.jpg) no-repeat center center; /* used multiple images until happy */
+    background: url(../images/runic-symbols.jpg) no-repeat center center; /* used multiple images until happy */
     background-position: center;
     background-size: 350px;
     height: 300px;
@@ -127,7 +127,7 @@ div h3 {
 }
 
 #right-info-image {
-    background: url(../images/desktop-wallpaper-vikings-viking-norse-vikings-dark-viking.jpg) no-repeat center center;
+    background: url(../images/weapons-image.jpg) no-repeat center center;
     background-position: center;
     background-size: 350px;
     height: 300px;
@@ -149,7 +149,7 @@ div h3 {
 
 /* How to make all images equal to eachother?*/
 #center-info-image {
-    background: url(../images/750px.png) no-repeat center center;
+    background: url(../images/longship-image.png) no-repeat center center;
     background-position: center;
     background-size: 350px;
     height: 300px;
