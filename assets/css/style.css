@@ -401,4 +401,9 @@ input[type=reset] {
     #gods {
         column-count: 2;
     }
+
+    #menu {
+        width: 100%;
+        font-size: medium;
+    }
 }
