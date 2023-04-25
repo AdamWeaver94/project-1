@@ -289,14 +289,14 @@ footer {
 /* contact */
 
 .form-container {
-    width: fit-content;
+    width: 30%;
     height: auto;
     font-size: 20px;
     padding: 40px;
-    margin: 250px auto;
-    text-align: center;
+    margin: 200px auto;
     border: solid azure 2px;
     border-width: 5px;
+    text-align: center;
 }
 
 legend {
@@ -305,6 +305,7 @@ legend {
     width: 300px;
     height: auto;
     margin-top: 200px;
+    text-align: center;
 }
 
 textarea {
@@ -352,12 +353,16 @@ input[type=email] {
 /* Feedback page */
 
 .thank-you {
+    width: 100%;
+    height: auto;
     margin-top: 150px;
     padding: 20px;
     text-align: center;
 }
 
 .thank-you p {
+    width: 100%;
+    height: auto;
     margin-top: 50px;
     padding: 20px;
     text-align: center;
@@ -404,7 +409,7 @@ input[type=email] {
     }
 
     .form-container {
-        width: 50%;
+        width: 320px;
         height: auto;
         clear: both;
         margin: 0 auto;
@@ -515,4 +520,19 @@ input[type=email] {
         width: 100%;
         height: 150px;
     }
+
+    input[type=text] {
+        width: 150px;
+        height: 25px;
+        margin: 10px;
+        border-radius: 3px;
+    }
+
+    input[type=email] {
+        width: 150px;
+        height: 25px;
+        margin: 10px;
+        border-radius: 3px;
+    }
+
 }
