@@ -522,14 +522,14 @@ input[type=email] {
     }
 
     input[type=text] {
-        width: 150px;
+        width: 130px;
         height: 25px;
         margin: 10px;
         border-radius: 3px;
     }
 
     input[type=email] {
-        width: 150px;
+        width: 130px;
         height: 25px;
         margin: 10px;
         border-radius: 3px;
