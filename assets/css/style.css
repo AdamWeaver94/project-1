@@ -284,7 +284,7 @@ footer {
 /* contact */
 
 .form-container {
-    width: 300px;
+    width: fit-content;
     height: auto;
     font-size: 20px;
     padding: 25px;
@@ -406,11 +406,12 @@ input[type=reset] {
     }
 
     .form-container {
-        width: 300px;
+        width: auto;
         height: auto;
         font-size: 20px;
         padding: 25px;
         margin: 0 auto;
+        clear: both;
     }
 
     legend {
