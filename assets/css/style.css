@@ -15,7 +15,9 @@ body {
 
 /* heading and logo */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Cinzel, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -37,7 +39,8 @@ h1, h2, h3 {
     margin-right: 20px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -62,7 +65,7 @@ h1, h2, h3 {
 
 /* homepage image */
 
-#homepage-outer{
+#homepage-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -81,10 +84,11 @@ h1, h2, h3 {
 
 /* zoom for homepage image */
 @keyframes homepage-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -106,7 +110,8 @@ div h3 {
 }
 
 #left-info-image {
-    background: url(../images/runic-symbols.jpg) no-repeat center center; /* used multiple images until happy */
+    background: url(../images/runic-symbols.jpg) no-repeat center center;
+    /* used multiple images until happy */
     background-position: center;
     background-size: 350px;
     height: 300px;
@@ -218,7 +223,7 @@ footer {
     text-align: center;
 }
 
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -287,22 +292,26 @@ footer {
     width: fit-content;
     height: auto;
     font-size: 20px;
-    padding: 25px;
-    margin: 0 auto;
+    padding: 40px;
+    margin: 250px auto;
     text-align: center;
-    }
+    border: solid azure 2px;
+    border-width: 5px;
+}
 
 legend {
-        font-size: 40px;
-        padding-top: 150px;
-        width: 300px;
-        height: auto;
-    }
+    font-size: 40px;
+    padding-bottom: 150px;
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+}
 
-    #feedback {
-        width: 300px;
-        height: auto;
-    }
+textarea {
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
 
 input[type=submit] {
     margin-top: 20px;
@@ -326,7 +335,35 @@ input[type=reset] {
     text-align: center;
 }
 
-/* Media queires*/
+input[type=text] {
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+input[type=email] {
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+/* Feedback page */
+
+.thank-you {
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.thank-you p {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media queires */
 
 @media screen and (max-width: 1200px) {
     #viking-info {
@@ -340,7 +377,8 @@ input[type=reset] {
         margin: 0;
     }
 
-    #left-info, #right-info {
+    #left-info,
+    #right-info {
         width: 100%;
         padding: 0;
         clear: both;
@@ -377,26 +415,28 @@ input[type=reset] {
 @media screen and (max-width: 950px) {
 
     #menu {
-        clear: left;
-        float: left;
+        clear: right;
+        float: right;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
+
     #viking-info {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #left-info h3, #right-info h3 {
+    #left-info h3,
+    #right-info h3 {
         width: 100%;
         text-align: center;
     }
 
 
-    #left-info p, #right-info p {
+    #left-info p,
+    #right-info p {
         width: 100%;
         text-align: center;
     }
@@ -415,17 +455,17 @@ input[type=reset] {
     }
 
     legend {
-            font-size: 40px;
-            padding-top: 150px;
-            width: 300px;
-            height: auto;
-            text-align: center;
+        font-size: 40px;
+        padding-top: 150px;
+        width: 300px;
+        height: auto;
+        text-align: center;
     }
 
-        #feedback {
-            width: 300px;
-            height: auto;
-            text-align: center;
+    #feedback {
+        width: 300px;
+        height: auto;
+        text-align: center;
     }
 
     input[type=submit] {
@@ -438,7 +478,7 @@ input[type=reset] {
         border-radius: 5px;
         text-align: center;
     }
-    
+
     input[type=reset] {
         margin-top: 20px;
         margin-left: 0.75rem;
@@ -452,14 +492,14 @@ input[type=reset] {
 }
 
 @media screen and (max-width: 800px) {
-    
+
     #gods {
         column-count: 2;
     }
 
     #menu {
-        clear: left;
-        float: left;
+        clear: right;
+        float: right;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
