@@ -74,3 +74,50 @@ The gallery would have more information on each overlay to give a detailed descr
 ## Footer
 
 The footer could connect to correct links relating to website social media sites once established.
+
+# Tools used
+
+- [Github](https://github.com/) & [Gitpod](https://gitpod.io/) For version control, safe storage and deployment. Web based IDE. 
+- [Google Dev Tools](https://developer.chrome.com/docs/devtools/) For testing and debugging
+- [Am I Responsive?](https://ui.dev/amiresponsive?url=https://jaycode88.github.io/msp-1) To create visuals for responsive design in [Read.me](https://github.com/AdamWeaver94/project-1/blob/master/README.md) file.
+- [W3 HTML Validator](https://validator.w3.org/) Was used to validate my HTML.
+- [W3 Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) Was used to validate my CSS.
+
+# Deployment
+
+The website was deployed on Github pages. To deploy follow these steps.
+
+- In the [Github Repository](https://github.com/AdamWeaver94/project-1)
+- Go to settings
+- From side menu, select pages and navigate to source drop down menu
+- Choose deploy from branch and select save
+
+The link to the website is [here](https://8000-adamweaver94-project1-e3h77ua4jcs.ws-eu95.gitpod.io/index.html)
+
+# Credit
+
+## Images
+
+All image are sourced from google images. 
+Refer to this link [here](https://github.com/AdamWeaver94/project-1/tree/master/assets/images) for images saved from google.
+
+# Credit
+
+## Images
+
+All image are sourced from google images. 
+Refer these links: 
+
+## Animation
+
+This was used inspired from the Love Running Project and modified accordingly.
+
+## Icons
+
+Icons used where from [FontAwesome](https://fontawesome.com/)
+
+# Acknowledgement
+
+- Thanks goes out to family and friends. For helping me develop my website to become more user freindly.
+
+- Thanks to Greame my mentor. For all the guidence along the way and motivation to keep up the work.
