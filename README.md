@@ -116,6 +116,15 @@ This was used inspired from the Love Running Project and modified accordingly.
 
 Icons used where from [FontAwesome](https://fontawesome.com/)
 
+## Viking Information
+
+Information was used from another site which i have then altered slightly to make it my own.0
+
+
+# Testing
+
+Please refer to my [test.md](https://github.com/AdamWeaver94/project-1/blob/master/test.md).
+
 # Acknowledgement
 
 - Thanks goes out to family and friends. For helping me develop my website to become more user freindly.
